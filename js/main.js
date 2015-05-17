@@ -7,7 +7,7 @@ function fadeInInfo(){
 $(document).ready( function() {
     initClothAnimation();
     animateCloth();
-    setTimeout(fadeInInfo, 1);
+    setTimeout(fadeInInfo, 5000);
 });
 
 
