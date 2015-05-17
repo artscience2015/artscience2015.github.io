@@ -65,6 +65,7 @@ $side-padding: 5vw;
 #title{
     text-align: center;
     font-size: 2em;
+    font-weight: bold;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -103,7 +104,7 @@ $side-padding: 5vw;
     margin-right: -50%;
     transform: translate(0%, -25%);
     -webkit-transform: translate(0%, -25%);
-    width : 90vw;
+    display: inline-block;
 
 
     @include breakpoint('small') {

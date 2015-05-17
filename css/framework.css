@@ -1,25 +1,10 @@
 body {
-  overflow-x: hidden; }
-
-h1 {
+  overflow-x: hidden;
   font-family: Roboto, Helvetica, sans-serif; }
-
-h2 {
-  font-family: Roboto, Helvetica, sans-serif;
-  float: left; }
-
-h6 {
-  font-family: Roboto, Helvetica, sans-serif;
-  float: left;
-  font-size: 14px;
-  padding-left: 5px; }
 
 a {
-  font-family: Roboto, Helvetica, sans-serif; }
-
-p {
-  font-family: Roboto, Helvetica, sans-serif;
-  text-align: left; }
+  text-decoration: none;
+  color: white; }
 
 .flag-animation {
   position: relative;
@@ -68,6 +53,7 @@ p {
 #title {
   text-align: center;
   font-size: 2em;
+  font-weight: bold;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -100,7 +86,7 @@ p {
   margin-right: -50%;
   transform: translate(0%, -25%);
   -webkit-transform: translate(0%, -25%);
-  width: 90vw; }
+  display: inline-block; }
   @media (min-width: 260px) {
     #timeandplace {
       transform: translate(0%, 40%);
