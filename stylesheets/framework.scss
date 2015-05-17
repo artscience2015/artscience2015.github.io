@@ -1,0 +1,35 @@
+
+
+//$color-red: #F00;
+//$color-light: #FFF;
+//$color-dark: #000;
+//
+//$block-padding: 5%;
+//
+//$page-padding: 20px;
+//$top-padding: 60px;
+//$title-padding: 70px;
+//$bottom-padding: 80px;
+//
+//$linewidth: 2px;
+//$header-height: 10px;
+//
+//$page-width: 95%;
+//$smallFontSize: 14px;
+//$block-margin: 5%;
+//$bigFontSize: 40px;
+//
+//$image-animation-delay: 12s;
+//$image-animation-transition: 1s;
+
+
+// -------------------------------------
+//   Modules
+// -------------------------------------
+
+@import "modules/breakpoints";
+@import "modules/mainsettings";
+@import "modules/flaganimation";
+@import "modules/pages";
+
+

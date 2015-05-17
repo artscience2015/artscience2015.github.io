@@ -1,0 +1,21 @@
+
+
+
+
+$breakpoints: (
+  'small': (min-width: 260px),
+  'medium': (min-width: 768px),
+  'large': (min-width: 1050px),
+  'huge': (min-width: 1300px),
+);
+
+@mixin breakpoint($breakpoint) {
+  @if map-has-key($breakpoints, $breakpoint) {
+    @media #{inspect(map-get($breakpoints, $breakpoint))} {
+      @content;
+    }
+  } @else {
+    @warn 'No value found for `#{$breakpoint}`. '
+         + 'Please make sure it is defined in `$breakpoints` map.';
+  }
+}

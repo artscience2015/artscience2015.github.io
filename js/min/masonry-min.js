@@ -1,0 +1,1 @@
+$(document).ready(function(){var o=$(".blocks-container");o.masonry({itemSelector:".block"})});
